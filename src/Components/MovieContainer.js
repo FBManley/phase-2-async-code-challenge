@@ -8,8 +8,6 @@ function MovieContainer() {
   const [selectedCategory, setSelectedCategory] = useState("All")
   const [search, setSearch] = useState("")
 
- 
-
   useEffect(() => {
     fetch("http://localhost:3001/movies")
     .then(r => r.json())

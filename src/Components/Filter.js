@@ -8,7 +8,7 @@ function Filter({ onCategoryChange}) {
     <div>
         <select name="filter" id="genre" onChange={onCategoryChange}>
             <option value="All" >All</option>
-            <option vlaue="Action">Action</option>
+            <option value="Action">Action</option>
             <option value="Horror">Horror</option>
             <option value="Drama">Drama</option>
             <option value="Comedy">Comedy</option>
