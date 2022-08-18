@@ -18,7 +18,7 @@ function MovieContainer() {
     setSelectedCategory(e.target.value)
   }
 
-  const moviesToDisplay = movies.filter((movie) => selectedCategory === "All" || movie.title === selectedCategory)
+  const moviesToDisplay = movies.filter((movie) => selectedCategory === "All" || movie.genre === selectedCategory)
   .filter((movie) => movie.title.toLowerCase().includes(search.toLowerCase()));
 
    return (
