@@ -1,6 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 
 function MovieForm() {
+  const [movies, setMovies] = useState("")
+  const [title, setTitle] = useState("")
+  const [image, setImage] = useState("")
+  const [description, setDescription] = useState("")
+  function handleMovieFormSubmit() {
+    setMovies([...movies, newMovie])
+  }
+
   return (
     <form className="new-movie-form">
         <h3>Add Movie</h3>
