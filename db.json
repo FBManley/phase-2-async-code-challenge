@@ -33,30 +33,20 @@
       "image": "https://i.guim.co.uk/img/media/7a1f6954c6d25f343fd20c7e53ccd772a5aadef3/0_335_3234_1940/master/3234.jpg?width=620&quality=85&fit=max&s=24a4b574355211917ac0d77c19e0793b"
     },
     {
-      "title": "",
-      "image": "",
-      "description": "",
+      "title": "test",
+      "image": "test.img",
+      "description": "testing",
+      "watched": true,
+      "genre": "Action",
       "id": 5
     },
     {
-      "title": "",
-      "image": "",
-      "description": "",
-      "id": 6
-    },
-    {
-      "title": "Meangirls",
-      "image": "meanmug.jpg",
-      "description": "testing testing",
-      "id": 7
-    },
-    {
-      "title": "SHarknado",
-      "image": "shark.jpg",
-      "description": "ahhhhhhhhhhhh",
+      "title": "testhere",
+      "image": "test.img",
+      "description": "des",
       "watched": true,
-      "genre": "Horror",
-      "id": 8
+      "genre": "Action",
+      "id": 6
     }
   ]
 }

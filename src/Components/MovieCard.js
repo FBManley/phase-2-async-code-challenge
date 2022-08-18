@@ -8,7 +8,6 @@ function MovieCard({movie}) {
 
   return (
     <div>
-      
       <h3>{title}</h3>
       <p>{genre}</p>
       <p>

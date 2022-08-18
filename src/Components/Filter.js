@@ -1,9 +1,7 @@
 import React from 'react'
 
 function Filter({ onCategoryChange}) {
-  // const handleFilterChange = (e) => {
-  //   onSearchChange(e.target.value)
-  // }
+
   return (
     <div>
         <select name="filter" id="genre" onChange={onCategoryChange}>

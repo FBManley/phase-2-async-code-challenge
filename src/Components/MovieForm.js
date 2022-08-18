@@ -1,26 +1,13 @@
 import React, {useState} from "react";
 
 function MovieForm() {
-  // const [newmovie, setnewMovie] = useState([{
-  //   title: '',
-  //   image: '',
-  //   description: '',
-  //   genre: false,
-  // }])
-  // const handleChange = (e) => {
-  //   setnewMovie({
-  //     ...newmovie, [e.target.name]: e.target.value
-  //   })
-  // }
-  // const [movies, setMovies] = useState("")
+
   const [title, setTitle] = useState("")
   const [image, setImage] = useState("")
   const [description, setDescription] = useState("")
   const [watched, setWatched] = useState(false)
   const [genre, setGenre] = useState("")
-  // function handleMovieFormSubmit() {
-  //   setMovies([...movies, newMovie])
-  // }
+
 
   function handleSubmit(e){
     e.preventDefault()
@@ -35,9 +22,6 @@ function MovieForm() {
         description: description, 
         watched: watched,
         genre: genre,
-        //watched true/false
-        //genre select
-        //onchange for inputs required?
       })
     })
   }
